@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Global reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Animated yellow background */
+.animated-yellow-bg {
+  background: linear-gradient(
+    120deg,
+    #fff7cc,
+    #fde68a,
+    #facc15,
+    #fde68a,
+    #fff7cc
+  );
+  background-size: 400% 400%;
+  animation: yellowGradient 18s ease infinite;
+}
+
+@keyframes yellowGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
