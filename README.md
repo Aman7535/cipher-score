@@ -8,7 +8,7 @@ The project demonstrates privacy-preserving computation concepts inspired by Ful
 
 ## 🚀 Live Demo
 👉 _Deployed on Base Sepolia (testnet)_  
-👉 cipher-score-jade.vercel.app
+👉 https://cipher-score-jade.vercel.app/
 
 ---
 
