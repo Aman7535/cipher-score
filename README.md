@@ -217,7 +217,7 @@ npm run test
 npx hardhat node
 npx hardhat deploy --network localhost
 ```
-**Deploy to Sepolia**
+**Deploy to Base Sepolia**
 ```
 npx hardhat deploy --network baseSepolia
 npx hardhat verify --network baseSepolia <CONTRACT_ADDRESS>
