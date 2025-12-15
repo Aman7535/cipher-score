@@ -193,11 +193,19 @@ cd contracts
 npm install
 ```
 **Environment Variables**
+
+This project uses a standard RPC-based Hardhat setup (no Infura required).
+
+Create a `.env` file inside the `contracts/` folder:
 ```
-npx hardhat vars set MNEMONIC
-npx hardhat vars set INFURA_API_KEY
-npx hardhat vars set ETHERSCAN_API_KEY
+PRIVATE_KEY=your_wallet_private_key
+BASE_SEPOLIA_RPC_URL=https://base-sepolia-rpc.publicnode.com
+ETHERSCAN_API_KEY=optional_for_verification
 ```
+
+**⚠️ Never commit your private key.
+The .env file is excluded via .gitignore.**
+
 **Compile & Test**
 ```
 npm run compile
