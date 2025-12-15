@@ -55,8 +55,8 @@ The project demonstrates privacy-preserving computation concepts inspired by Ful
 ---
 
 ## 📂 Repository Structure
+```
 contracts/ # Smart contracts + deployment scripts
-frontend/
 └─ cipher-score-ui/
 ├─ src/
 │ ├─ components/
@@ -65,7 +65,7 @@ frontend/
 │ └─ app/
 └─ README.md
 
-
+```
 ---
 
 ## ⚠️ Disclaimer
