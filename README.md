@@ -219,8 +219,8 @@ npx hardhat deploy --network localhost
 ```
 **Deploy to Sepolia**
 ```
-npx hardhat deploy --network sepolia
-npx hardhat verify --network sepolia <CONTRACT_ADDRESS>
+npx hardhat deploy --network baseSepolia
+npx hardhat verify --network baseSepolia <CONTRACT_ADDRESS>
 ```
 
 ---
