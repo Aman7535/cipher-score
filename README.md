@@ -47,6 +47,7 @@ For this demo, encryption is simulated to focus on privacy-preserving computatio
 3. The encrypted values are sent to the smart contract **— raw values are never stored on-chain.**
 
 **On-Chain (Smart Contract)**
+
 4. The smart contract receives **only encrypted inputs**
 
 5. **It computes:**
