@@ -56,14 +56,8 @@ The project demonstrates privacy-preserving computation concepts inspired by Ful
 
 ## 📂 Repository Structure
 ```
-contracts/ # Smart contracts + deployment scripts
-└─ cipher-score-ui/
-├─ src/
-│ ├─ components/
-│ ├─ hooks/
-│ ├─ contracts/
-│ └─ app/
-└─ README.md
+- `cipher-score-ui/` — Next.js frontend (Vercel deployed)
+- `contracts/` — Hardhat smart contracts (CipherScore logic)
 
 ```
 ---
